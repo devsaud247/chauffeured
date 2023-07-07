@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+input,
+select {
+  @apply w-full cursor-pointer p-3 hover:opacity-70;
+}
