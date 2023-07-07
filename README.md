@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## About coding assignment
+
+The coding assignment is done using Next.js, TypeScript and TailwindCSS with Next js static site generation for best SEO results.
+
+The idea is to generate all of the major if not all locations/destinations pages statically on build time for best SEO results. This coding assignment shows what one of the locations page on such page might look like. I am using mock data for statically generated a single page but in full site, this can come from our api, CMS api etc.
+
+We can still have dynamically/client side or hybridly rendered search page for searching offering based on different filters like it is being done currently alongside having statically generated pages where we may not show any filter, show some exluding location filter (because we seeing already a location specific offering/rentals page) or show a cta to navigate user to generic search or rental locator.
+
 ## Getting Started
 
 First, run the development server:
@@ -14,22 +22,7 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
